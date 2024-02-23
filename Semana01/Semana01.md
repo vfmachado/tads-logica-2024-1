@@ -33,3 +33,11 @@ Vamos definir os conceitos solicitados:
 
 ### 9. JDK (Java Development Kit)
 - O JDK é um conjunto de ferramentas de desenvolvimento utilizadas para criar, compilar e depurar aplicativos Java. Ele inclui o compilador Java (javac), a Máquina Virtual Java (JVM), bibliotecas e outras ferramentas auxiliares necessárias para o desenvolvimento de software em Java.
+
+## TEMA PARA CASA
+
+- INSTALAR O JDK
+- GARANTIR O FUNCIONAMENTO DO COMPILADOR JAVA
+- ESCREVER UM PROGRAMA SIMPLES EM JAVA E COMPILÁ-LO
+
+- VER OS VIDEOS SOBRE HISTORIA DO JAVA (ARQUIVO DE LINKS UTEIS)
