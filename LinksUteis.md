@@ -12,3 +12,8 @@ https://www.youtube.com/watch?v=yWU5bm_pZzY&t=1099s&ab_channel=CursoemV%C3%ADdeo
 
 https://free-apis.github.io/#/
 https://leetcode.com/studyplan/top-interview-150/
+
+
+# DISCORD
+
+* https://discord.gg/f3QVZGnFpp
