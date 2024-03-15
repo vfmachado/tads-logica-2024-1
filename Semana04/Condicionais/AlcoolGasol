@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class AlcoolGasol {
+
+    // faça um programa que leia os valores que representam os preços do alcool e da gasolina. e informe ao usuario qual o combustivel deve ser escolhido dando prioridade para gasolina (no empate) e sabendo que o valor do alcool deve ser mais de 30% mais barato que da gasolina. No final, o programa deve dizer "ALCOOL" ou "GASOLINA"
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        float precoAlcool, precoGasolina, gasolina30;
+        boolean compraAlcool;
+
+        System.out.println("Informe o valor do alcool e da gasolina");
+        precoAlcool = in.nextFloat();
+        precoGasolina = in.nextFloat();
+
+        gasolina30 = gasolina * 0.7f;
+
+        compraAlcool = precoAlcool < gasolina30;
+        
+        // QUANDO E SOMENTE QUANDO TIVERMOS APENAS UMA INSTRUÇAO DENTRO DE UM IF, AS CHAVES SÃO OPCIONAIS.
+
+        if (compraAlcool)
+            System.out.println("ALCOOL");
+        // SEMPRE QUE A OUTRA CONDICAO FOR EXATAMENTE O CONTRARIO DA ANTERIOR E EU QUERO ESCOLHER UMA OU OUTRA. PODEMOS TROCAR A SEGUNDA CONDICAO POR UM "SENÃO" (ELSE)
+       //  if (!compraAlcool)
+        else
+            System.out.println("GASOLINA");
+
+
+        // ELSE NUNCA NA VIDA EM HIPOTESE ALGUMA TEM CONDICAO
+        // A "CONDICAO" IMPLICITA DO ELSE É SEMPRE O CONTRARIO DO IF
+        // LOGO SÓ EXISTE ELSE DEPOIS DE UM IF.
+        // E O ELSE, É OPCIONAL!
+
+
+    }
+
+}
