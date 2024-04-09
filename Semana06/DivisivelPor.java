@@ -28,5 +28,27 @@ public class DivisivelPor {
         // a é divisor de 100? 
         boolean div100 = 100 % a == 0;
 
+
+        // quero saber se o ano é um ano bissexto
+        int ano = 2024;
+        boolean bissexto = ano % 4 == 0  && ano % 100 != 0;
+
+        if (bissexto) {
+            
+        }
+
+
+        float preco = 19.9f;
+        
+        // hoje é dia de promoção e vc nao paga os centavos
+        // preco que deveria pagar é 19
+
+        int precoInt = (int) preco;
+        
+        int idade1 = 32, idade2 = 31;
+        int divisao = 2;
+        float media = (float)(idade1 + idade2) /divisao;
+        System.out.println("MEDIA IDADES " + media);
+
     }
 }
