@@ -50,7 +50,6 @@ public class Vetores03 {
                 char resposta = in.next().charAt(0);
                 if (resposta == 'n') break;
                 else continue;
-                
             }
                 
             valor = in.nextInt();
